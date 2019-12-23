@@ -1,0 +1,54 @@
+
+
+// storing a mathematical expression //16
+//var x = 5 + 10 + 1;
+//var name = 'srini;'
+//let y;
+//let name = 'Srinivasan'
+//let a=1, b=2, c=3;
+//a=4;
+//console.log (a);
+//console.log (b);
+//console.log (c);
+//const name = 'Srini';
+//name = 'Nasir';
+//console.log (name);
+
+
+
+/*let globalVar = "This is a global variable"; 
+  
+function fun() { 
+  let localVar = "This is a local variable"; 
+  
+  console.log(globalVar); 
+  console.log(localVar); 
+} 
+  
+fun(); */
+
+
+function srini()
+{
+var a = 9;
+var b= 10;
+var c = a+b;
+var d;
+
+{
+    //console.log (c);
+d = c+b;
+console.log (d);
+}
+
+}
+srini ();
+
+function srini1()
+
+{
+    srini ();
+}
+
+srini1();
+
